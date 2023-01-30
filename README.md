@@ -1,24 +1,3 @@
-# pokedex
+# pokedex criada com o intuito de aprender a usar as transições do VUEJS
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# NÃO FAZ USO DE API EXTERNA
