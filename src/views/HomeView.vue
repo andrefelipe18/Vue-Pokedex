@@ -114,8 +114,8 @@
               <span>{{ p.tipo }}</span>
               <div class="cartao-pokemon-img">
                 <transition
-                enter-active-class="animate__animated animate_fadeInDown"
-                appear=""
+                appear
+                enter-active-class="animate__animated animate__zoomInDown"
                 >
                 <img :src="require(`@/assets/imgs/pokemons/${p.imagem}`)">
                </transition>
@@ -155,6 +155,11 @@ export default {
       this.pokemon = p
       this.exibir = !this.exibir
       this.exibirEvolucoes = !this.exibirEvolucoes
+
+      if(this.exibir == false){
+        this.pokemon = {}
+      }
+
     },
 
   },
