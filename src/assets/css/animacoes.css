@@ -187,3 +187,6 @@ transition: all 1s;
 .transicao {
     transition: all 2s;
 }
+.asc{
+    background-color: #333;
+}
